@@ -832,9 +832,9 @@ ul.footer-sub-heading {
         background: #46465b94;
         padding: 12px;
     }
-    .nav-top{
-        padding: 0px;
-    }
+    .nav-top {
+      padding: 16px 0px;
+  }
     .about-right-content{
         padding-left: 0rem;
 
