@@ -1,0 +1,126 @@
+.swiper {
+    width: 100%;
+    padding: 40px 0;
+  }
+  .swiper-box{
+    border: 1px solid #3A3C56;
+    border-radius: 6px;
+  }
+  .swiper-slide {
+
+    text-align: center;
+    /* padding: 20px; */
+
+  }
+  .swiper-slide img {
+    /* width: 100px; */
+    width: 100%;
+    height: 100%;
+    /* border-radius: 50%;
+    margin-bottom: 10px; */
+  }
+  .swiper-box{
+    padding: 24px 20px 1px;
+    height: 272px;
+    width: 270px;
+  }
+  .swiper-box img{
+    height: auto;
+  }
+
+  .swiper-box-content h3 {
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    white-space: nowrap;
+    text-align: start;
+    margin-top: 26px;
+}
+.swiper-box-content p {
+    font-weight: 400;
+    color: #FFFFFFA3;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: start;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  color: rgb(255, 249, 249);
+}
+.custom-next {
+  right: 40px;
+}
+.custom-prev {
+  left: 40px;
+}
+.swiper-pagination-bullet {
+  background: #EF6D58;
+}
+
+/* Custom styled arrows */
+.swiper-button-next,
+.swiper-button-prev {
+    border: 1px solid #3a3c56;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+/* Positioning arrows outside the slider */
+.swiper-button-next {
+  /* right: -50px; */
+  top: 90px;
+}
+
+
+/* Remove default arrow icons */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.swiper {
+    width: 100%;
+    padding: 73px 0;
+}
+.swiper-button-prev {
+    top: 10%;
+    left: 85%;
+}
+.swiper-button-next {
+    /* right: -50px; */
+    top: 10%;
+  }
+  .swiper-mainp {
+    position: relative;
+    height: 272px;
+    /* width: 272px; */
+}
+  .swiper-box {
+
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.swiper-slide img {
+    /* width: 100px; */
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 24px 20px 1px;
+}
