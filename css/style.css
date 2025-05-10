@@ -27,6 +27,9 @@ body{
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6,p{
     margin: 0px;
 }
+iframe {
+  border: none;
+}
 .custum-btn{
     width: 138;
     height: 48px;

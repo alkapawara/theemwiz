@@ -1,20 +1,5 @@
 
-window.addEventListener("load", () => {
-  gsap.to("#loader", {
-    duration: 1,
-    opacity: 0,
-    pointerEvents: "none",
-    onComplete: () => {
-      document.getElementById("loader").style.display = "none";
-      document.getElementById("main-content").style.display = "block";
-      gsap.from("#main-content", {
-        opacity: 0,
-        y: 50,
-        duration: 1
-      });
-    }
-  });
-});
+
 
 window.addEventListener("load", () => {
     gsap.to(".floating-img", {
